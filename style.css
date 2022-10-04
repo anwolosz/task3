@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap');
+
+body {
+    font-family: "Roboto";
+    margin: 0;
+    color: #e5e7eb;
+}
+
+h1 {
+    color: #f9faf8;
+
+}
+
+a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+nav,
+header, footer {
+    background-color: #1f2937;
+}
+
+nav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+nav>a {
+    
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-right {
+    float: right;
+}
+
+header {
+    padding: 60px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.flex-image {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+
+.flex-part {
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+
+    line-height: 100px;
+    text-align: left;
+    
+}
+
+.flex-common {
+    margin: 20px;
+    text-align: center;
+    width: 100px;
+}
+
+.A {
+    padding: 40px;
+    width: 400px;
+}
+
+.B img {
+    width: 400px;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    border-radius: 5px;
+    background: #3882f6;
+    padding: 5px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.infos, .infosText {
+    color: #1f2937;
+
+}
+
+.infosText {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+    padding: 80px;
+    padding-left: 30%;
+    padding-right: 30%;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    overflow: hidden;
+}
+cite{
+    float: right;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+}
+.sign {
+    border-radius: 5px;
+    margin: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding:40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: #3882f6;
+}
+
+.sign > .flex-container {
+    justify-content: left;
+}
+
+.X {
+    margin: 0;
+}
+
+.signButton {
+    margin: 15px;
+    margin-left: 200px;
+    border: 3px solid #f9faf8;
+}
+
+footer {
+    padding: 60px;
+    text-align: center;
+}
